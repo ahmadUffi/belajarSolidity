@@ -1,0 +1,98 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "createSImpleStorageContract",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "listOfsimpleStorageContract",
+				"outputs": [
+					{
+						"internalType": "contract SimpleStorage",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_SimpleStorageIndex",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_newSimpleStorageFavoriteNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "sfStore",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"SimpleFactory.sol": "SimpleFactory"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"SimpleFactory.sol": {
+			"keccak256": "0x2bcc4a723627eb226dcf95dec5c0bcd39df8400a1cb51e9e3370c7fb26159287",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://cbb91bf7c30293c704863791138a98529939e7c76cec7bea80c0b7837344defb",
+				"dweb:/ipfs/QmWMqMjCNWnBMAqoyUReckt16C6KYuisjk6o7gj4cKvJ5o"
+			]
+		},
+		"SimpleStorage.sol": {
+			"keccak256": "0x1e086615fa418d494c8374bee26e5fbca7e59cd3cdcac8ff131320333caa15fa",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://613403fb4d83ee43b9c450edfc9ce952f627322fe11cc6e98da5e229d796a1a3",
+				"dweb:/ipfs/QmbP7pNd2zxKEK8Lnrp2YWN5HQnJdVqBBJieaYGuShs327"
+			]
+		}
+	},
+	"version": 1
+}
